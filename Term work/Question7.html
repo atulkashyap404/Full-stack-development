@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Illustrate Table tag with row span and colspan with table data </title>
+
+</head>
+
+<body>
+    <center>
+        <h3>
+            <h1>Using colspan = for multi-column headings</h1>
+            <table border="1px">
+                <caption>Life Expectancy By Current Age</caption>
+                <thead>
+                    <tr>
+                        <th colspan="2">65</th>
+                        <th colspan="2">40</th>
+                        <th colspan="2">20</th>
+                    </tr>
+                    <tr>
+                        <th>Men</th>
+                        <th>Women</th>
+                        <th>Men</th>
+                        <th>Women</th>
+                        <th>Men</th>
+                        <th>Women</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>82</td>
+                        <td>85</td>
+                        <td>78</td>
+                        <td>82</td>
+                        <td>77</td>
+                        <td>81</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h1>Using colspan = for single-row titling</h1>
+            <table border="1px">
+                <caption>Invoice</caption>
+                <thead>
+                    <tr>
+                        <th>Item / Desc.</th>
+                        <th>Qty.</th>
+                        <th>@</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Paperclips (Box)</td>
+                        <td>100</td>
+                        <td>1.15</td>
+                        <td>115.00</td>
+                    </tr>
+                    <tr>
+                        <td>Paper (Case)</td>
+                        <td>10</td>
+                        <td>45.99</td>
+                        <td>459.90</td>
+                    </tr>
+                    <tr>
+                        <td>Wastepaper Baskets</td>
+                        <td>2</td>
+                        <td>17.99</td>
+                        <td>35.98</td>
+                    </tr>
+                    <tr>
+                        <th colspan="3">Subtotal</th>
+                        <td>610.88</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Tax</th>
+                        <td>7%</td>
+                        <td>42.76</td>
+                    </tr>
+                    <tr>
+                        <th colspan="3">Total</th>
+                        <td>653.64</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h1>rowspan = Code Example</h1>
+            <table border="1px">
+                <caption>Favorite and Least Favorite Things</caption>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th>Bob</th>
+                        <th>Alice</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th rowspan="2">Favorite</th>
+                        <th>Color</th>
+                        <td>Blue</td>
+                        <td>Purple</td>
+                    </tr>
+                    <tr>
+                        <th>Flavor</th>
+                        <td>Banana</td>
+                        <td>Chocolate</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">Least Favorite</th>
+                        <th>Color</th>
+                        <td>Yellow</td>
+                        <td>Pink</td>
+                    </tr>
+                    <tr>
+                        <th>Flavor</th>
+                        <td>Mint</td>
+                        <td>Walnut</td>
+                    </tr>
+                </tbody>
+            </table>
+        </h3>
+    </center>
+</body>
+
+</html>

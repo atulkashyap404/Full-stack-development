@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>implement pseudo elements in HTML</title>
+    <style>
+        p::first-letter {
+            color: #ff0000;
+            font-size: xx-large;
+        }
+
+        h3::first-line {
+            color: #ff0000;
+            font-size: xx-large;
+        }
+
+        h1::before {
+            content:"*******************";
+        }
+
+        h2::after {
+            content:"*******************";
+        }
+
+        a:active{
+            font-size: 24px;
+        }
+
+        a:visited{
+            color: green;
+        }
+
+        a:link{
+            color: black;
+        }
+        a:hover{
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p>This handout will help you understand how paragraphs are formed, how to develop stronger paragraphs, and how to
+        completely and clearly express your ideas.
+    </p>
+
+
+    <h3>This handout will help you understand how paragraphs are formed, how to develop stronger paragraphs, and how to
+        completely and clearly express your ideas.
+    </h3>
+
+
+    <h1>his handout will help you understand how paragraphs are formed</h1>
+
+    <h2>his handout will help you understand how paragraphs are formed</h2>
+
+
+    <a href="CSS_Q2.html" target="_blank">Click the link</a>
+
+</body>
+
+</html>
