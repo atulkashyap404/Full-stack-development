@@ -75,3 +75,4 @@ console.log("Data type is " +(typeof findName));
 
 let date = new Date();
 console.log("Data type is " +(typeof date));
+// hi
